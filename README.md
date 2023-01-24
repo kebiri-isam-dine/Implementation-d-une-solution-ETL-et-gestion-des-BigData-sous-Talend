@@ -21,8 +21,14 @@ Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour
 - Automatisation avec des scripts exécutable
 - Gestion des gros sources de données
 
+#### context
+- Migration de données à un nouveau système
+- Stockage de données dans des entrepot de données
+- Consolidation de données (fusion d'entreprises)
+- Synchronisation de données
+- Lectures de différents DBs ou fichiers (csv, excel, xml ou plat)
 
-### Keywords
+#### Keywords
 
 Talend  - java - job - MySQL - Oracle 
 
