@@ -1,4 +1,4 @@
-# Implementation d'une solution ETL pour la gestion des BigData sous Talend
+# Implementation d'une solution ETL pour l'intégartion de données et gestion des BigData sous Talend
 
 
 
@@ -14,12 +14,16 @@
 
 
 ## About The Project
-Ce projet consiste à implémenter une solution ETL sous 
+Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour une intégartion de différents source de données et notament avec des scripts en java, le travail consiste à :
+- Conceptions de jobs
+- Intégration de deux bases de données : MySQL et Oracle
+- Définition des schémas de métadonnées
+- Automatisation avec des scripts exécutable
 
 
 ### Keywords
 
-Talend  - java - 
+Talend  - java - job - MySQL - Oracle 
 
 
 
