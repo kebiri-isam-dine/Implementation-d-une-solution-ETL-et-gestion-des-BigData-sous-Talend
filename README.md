@@ -1,4 +1,4 @@
-# Implementation d'une solution ETL pour l'intégartion de données et gestion des BigData sous Talend
+# Implémentation d'une solution ETL pour l'intégration de données et gestion des BigData sous Talend
 
 
 
