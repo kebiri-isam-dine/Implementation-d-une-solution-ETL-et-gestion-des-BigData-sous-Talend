@@ -7,6 +7,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kebiri-isam-dine/Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend?color=red&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kebiri-isam-dine/Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend?color=yellow&style=for-the-badge)
 
+![GitHub dev_language](https://img.shields.io/badge/Talend-green?style=flat&logo=talend&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/PostgreSQL-blue?style=flat&logo=postgresql&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/Oracle-red?style=flat&logo=oracle&logoColor=white)
+
+
 ![GitHub Org's stars](https://img.shields.io/github/stars/kebiri-isam-dine?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/kebiri-isam-dine?style=social)
 
