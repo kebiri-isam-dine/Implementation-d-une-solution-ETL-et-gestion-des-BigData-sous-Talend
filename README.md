@@ -40,7 +40,7 @@ Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour
 
 #### Keywords
 
-Talend  - java - job - PostgreSQL - Oracle
+Talend  - java - jobs - PostgreSQL - Oracle
 
 ## Dataset
 
