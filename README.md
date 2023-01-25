@@ -37,58 +37,24 @@ Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour
 Talend  - java - job - PostgreSQL - Oracle
 
 
-
-
-## Installation
-
-Use the package manager `pip` to install 
-
-```bash
-pip install XXXXX
-```
-
-
-## Packages
-
-```python
-
-import genopy 
-from Bio.Align.Applications import ClustalOmegaCommandline 
-import pandas as pd
-import numpy as np
-```
-
-
 ## Dataset
 
-Le Dataset se trouve [ici](data-sequence.txt)
+Le dossier des fichiers csv, excel et txt de données se trouve [ici](/Data_csv/Fichiers/)
 
-| Badge                                                                                                                                 | URL                                                                                                                       |
+| Inputs                                                                                                                                 | Outputs                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://custom-icon-badges.herokuapp.com/badge/comet%20ml-262c3e?style=for-the-badge&logo=logo_comet_ml&logoColor=white" /> | `https://custom-icon-badges.herokuapp.com/badge/comet%20ml-262c3e?style=for-the-badge&logo=logo_comet_ml&logoColor=white` |
-| <img src="https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white" />                      | `https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white`                      |
-| <img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />                                | `https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white`                                |
-| <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />                            | `https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white`                            |
-| <img src="https://img.shields.io/badge/PyTorch%20Lightning-792DE4?style=for-the-badge&logo=pytorch-lightning&logoColor=white" />      | `https://img.shields.io/badge/PyTorch%20Lightning-792DE4?style=for-the-badge&logo=pytorch-lightning&logoColor=white`      |
-| <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />                      | `https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white`                      |
-| <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" />          | `https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white`  
+| [Fichier_Individus.csv](/Data/Inputs/Fichier_Individus.csv) | [Individus.xml](/Data/Output/Individus.xml)  |
+| ...                      | 
 
 
 
-## Usage
+## Taches réalisées
 
-```python
-import exempleee
+• Créations et configuration des jobs composé de plusieurs composants reliés par des connexions
+• Exécution des jobs et débogage du code
+• Load csv & transform to xml
 
-# returns 'words'
-exempleee.pluralize('word')
 
-# returns 'geese'
-exempleee.pluralize('goose')
-
-# returns 'phenomenon'
-exempleee.singularize('phenomena')
-```
 
 ## Output
 
