@@ -15,6 +15,7 @@
 
 ## About The Project
 
+『 EN COUR DE REALISATION 』   
 Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour une intégration de différentes sources de données et notamment avec des scripts en java, le travail consiste à :
 
 - Conceptions de jobs
@@ -36,27 +37,28 @@ Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour
 
 Talend  - java - job - PostgreSQL - Oracle
 
-
 ## Dataset
 
 Le dossier des fichiers csv, excel et txt de données se trouve [ici](/Data_csv/Fichiers/)
-                     
 
-| Inputs | Outputs | Description                                      |
-|-----------------|----------------------------------|---------------------------------------------|
-| [Fichier_Individus.csv](/Data/Inputs/Fichier_Individus.csv)| [Individus.xml](/Data/Output/Individus.xml)| Lire un csv et le transformer en xml|
-| 2.x             | >= 2.6 < 3                       | bug-fixes, security-fixes                   |
-| ...             | ...                             | ...     |
+Id processus | Inputs | Outputs | Description                                      |
+|-----------------|-----------------|----------------------------------|---------------------------------------------|
+| Id 1 | [Fichier_Individus.csv](/Data/Inputs/Fichier_Individus.csv)| [Individus.xml](/Data/Output/Individus.xml)| Lire un csv et le transformer en xml|
+| Id 2 | [Fichier_Individus.csv](/Data/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Data//Output/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
+| Id 3 | ...             | ...                             | ...     | ... |
 
 ## Taches réalisées
 
-- Créations et configuration des jobs composé de plusieurs composants reliés par des connexions   
-- Exécution des jobs et débogage du code    
-- Load csv & transform to xml   
+- Créations et configuration des jobs composée de plusieurs composants reliés par des connexions
+- Exécution des jobs et débogage du code
+- Load csv & transform to xml
 - Transformer un fichier csv : mettre les noms en MAJ
+- ...
 
+## Visualisation des processus
 
-
+Exemple processus Id 2 :
+<img src="/Captures/Processus_Id_2.png">
 
 
 
