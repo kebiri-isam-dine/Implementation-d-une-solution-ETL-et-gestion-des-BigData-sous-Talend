@@ -21,7 +21,7 @@
 ## About The Project
 
 『 EN COUR DE REALISATION 』   
-Ce projet consiste à implémenter une solution ETL sous **Talend Open Studio** pour une intégration de différentes sources de données et notamment avec des scripts en **java**, le travail consiste à :
+Ce projet consiste à implémenter une solution ETL (Extract-transform-load) sous **Talend Open Studio** pour une intégration de différentes sources de données et notamment avec des scripts en **java**, les taches à réaliser sont :
 
 - Conceptions de jobs
 - Intégration de deux bases de données : **PostgreSQL** et **Oracle**
