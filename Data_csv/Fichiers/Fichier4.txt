@@ -1,0 +1,14 @@
+nom;prenom;âge
+Takana;Lion;45
+Ramatoulaye;Kotoka;64
+Bartez;Melanie;98
+Camara;Vieux;45
+Donzo;Amelie;29
+Nicolas;Hano;45
+Natacha;Nina;79
+Roumy;Martin;56
+Cyril;Foucher;40
+Mohamed;BenSoul;27
+TI;Taiming;30
+Bomboyi;LY;23
+Wang;Yeu;56

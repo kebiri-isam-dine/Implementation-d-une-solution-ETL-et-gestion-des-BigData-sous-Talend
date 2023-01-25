@@ -14,39 +14,27 @@
 
 
 ## About The Project
-Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour une intégartion de différents source de données et notament avec des scripts en java, le travail consiste à :
+
+Ce projet consiste à implémenter une solution ETL sous Talend Open Studio pour une intégration de différentes sources de données et notamment avec des scripts en java, le travail consiste à :
+
 - Conceptions de jobs
-- Intégration de deux bases de données : MySQL et Oracle
+- Intégration de deux bases de données : PostgreSQL et Oracle
 - Définition des schémas de métadonnées
 - Automatisation avec des scripts exécutable
-- Gestion des gros sources de données
+- Gestion des grosses sources de données (Big Data)
 
 #### context
+
 - Migration de données à un nouveau système
-- Stockage de données dans des entrepot de données
+- Stockage de données dans des entrepôts de données
 - Consolidation de données (fusion d'entreprises)
 - Synchronisation de données
 - Lectures de différents DBs ou fichiers (csv, excel, xml ou plat)
+- Intégration décisionnelle et opérationnelle
 
 #### Keywords
 
-Talend  - java - job - MySQL - Oracle 
-
-
-
-### Demo
-
-exemple gif
-
-
-
-
-### Built With
-
-*  Markdown
-*  Github
-*  VS Code
-
+Talend  - java - job - PostgreSQL - Oracle
 
 
 
