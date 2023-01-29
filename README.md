@@ -23,7 +23,9 @@
 『 EN COUR DE REALISATION 』   
 Ce projet consiste à implémenter une solution ETL (Extract-transform-load) sous **Talend Open Studio** pour une intégration de différentes sources de données et notamment avec des scripts en **java**, les taches à réaliser sont :
 
-- Conceptions de jobs
+- Implémenter des jobs
+- Réaliser des mapping avec les flux de données
+- Orchestrer plusieurs jobs et création des routines pour transformation de données
 - Intégration de deux bases de données : **PostgreSQL** et **Oracle**
 - Définition des schémas de métadonnées
 - Automatisation avec des scripts exécutable
@@ -35,7 +37,7 @@ Ce projet consiste à implémenter une solution ETL (Extract-transform-load) sou
 - Stockage de données dans des entrepôts de données
 - Consolidation de données (fusion d'entreprises)
 - Synchronisation de données
-- Lectures de différents DBs ou fichiers (csv, excel, xml ou plat)
+- Lectures de différents DBs ou fichiers (csv, txt, excel, xml ou plat)
 - Intégration décisionnelle et opérationnelle
 
 #### Keywords
@@ -46,9 +48,9 @@ Talend  - java - jobs - PostgreSQL - Oracle
 
 Le dossier des fichiers csv, excel et txt de données se trouve [ici](/Data_csv/Fichiers/)
 
-Id processus | Inputs | Outputs | Description                                      |
+Processus | Inputs | Outputs | Description                                      |
 |-----------------|-----------------|----------------------------------|---------------------------------------------|
-| Id 1 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
+| [csv_to_xml.java](C:\Users\etudiant\OneDrive\My_Documents\Projects\Code\DB\Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend\poms\jobs\process\Utilisation_fichiers\utilisation_fichier1_0.1\src\main\java\main1\utilisation_fichier1_0_1\Utilisation_fichier1.java) | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
 | Id 2 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
 | Id 3 | ...             | ...                             | ...     | ... |
 
