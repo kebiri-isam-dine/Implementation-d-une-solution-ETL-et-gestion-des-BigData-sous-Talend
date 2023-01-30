@@ -50,10 +50,10 @@ Le dossier des fichiers csv, excel et txt de données se trouve [ici](/Data_csv/
 
 Processus | Inputs | Outputs | Description                                      |
 |-----------------|-----------------|----------------------------------|---------------------------------------------|
-| [csv_to_xml.java](C:\Users\etudiant\OneDrive\My_Documents\Projects\Code\DB\Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend\poms\jobs\process\Utilisation_fichiers\utilisation_fichier1_0.1\src\main\java\main1\utilisation_fichier1_0_1\Utilisation_fichier1.java) | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
+| Id1 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
 | Id 2 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
-| Id 3 | ...             | ...                             | ...     | ... |
-
+| Id3 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv) & [Activite_Individus.txt](/Inputs/Activite_Individus.txt)| [Id3IndividuOutput.csv](/Outputs/Id3IndividuOutput.csv) & [Id3IndividuOutput.xml](Outputs/Id3IndividuOutput.xml)| csv + txt to csv & xml. <br>  Ajout de la colone type_sport présente dans txt au csv|
+| Id4 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
 ## Taches réalisées
 
 - Créations et configuration des **jobs** composée de plusieurs composants reliés par des connexions
@@ -64,7 +64,7 @@ Processus | Inputs | Outputs | Description                                      
 
 ## Visualisation des processus
 
-Exemple processus Id 2 :
+Exemple du processus [csv_to_xml.java](C:\Users\etudiant\OneDrive\My_Documents\Projects\Code\DB\Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend\poms\jobs\process\Utilisation_fichiers\utilisation_fichier1_0.1\src\main\java\main1\utilisation_fichier1_0_1\Utilisation_fichier1.java) :
 <img src="/Captures/Processus_Id_2.png">
 
 
