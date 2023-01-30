@@ -68,7 +68,7 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 
 ## Visualisation des processus
 
-- Job Id1 & Id2 [csv_to_xml.java](C:\Users\etudiant\OneDrive\My_Documents\Projects\Code\DB\Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend\poms\jobs\process\Utilisation_fichiers\utilisation_fichier1_0.1\src\main\java\main1\utilisation_fichier1_0_1\Utilisation_fichier1.java) :
+- Job Id1 & Id2 [csv_to_xml.java](C:/Users/etudiant/OneDrive/My_Documents/Projects/Code/DB/Implementation-d-une-solution-ETL-et-gestion-des-BigData-sous-Talend/poms/jobs/process/Utilisation_fichiers/utilisation_fichier1_0.1/src/main/java/main1/utilisation_fichier1_0_1/Utilisation_fichier1.java) :
 <img src="/Captures/Exemple1.png">
 
 - Job Id5 (Trigger) :
