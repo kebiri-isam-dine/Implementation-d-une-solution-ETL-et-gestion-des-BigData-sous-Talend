@@ -25,7 +25,7 @@ Ce projet consiste à implémenter une solution ETL (Extract-transform-load) sou
 
 - Implémenter des jobs
 - Réaliser des mapping avec les flux de données
-- Orchestrer plusieurs jobs et création des routines pour transformation de données
+- Orchestrer plusieurs jobs et créations des routines pour transformation de données
 - Intégration de deux bases de données : **PostgreSQL** et **Oracle**
 - Définition des schémas de métadonnées
 - Automatisation avec des scripts exécutable
@@ -44,27 +44,33 @@ Ce projet consiste à implémenter une solution ETL (Extract-transform-load) sou
 
 Talend  - java - jobs - PostgreSQL - Oracle
 
-## Dataset
+
+## Data
+#### Dataset
 
 Le dossier des fichiers csv, xml, xlsx et txt de notre Dataset se trouve [ici](/Data_csv/Fichiers/)
+
+#### Databases
+Pour la base de données PostgreSQL, lancer le script [ScriptsBDD.sql](ScriptsBDD.sql) pour avoir les quatre tables : ``Clients``, ``Clients_details``, ``Individus`` et ``Individus_Details``
 
 ## Jobs
 
 Jobs | Composant_Inputs | Composant_Outputs | Description du job                                     |
 |-----------------|-----------------|----------------------------------|---------------------------------------------|
 | Id1 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
-| Id2 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
+| Id2 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la colonne nom en MAJ|
 | Id3 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv) & [Activite_Individus.txt](/Inputs/Activite_Individus.txt)| [Id3IndividuOutput.csv](/Outputs/Id3IndividuOutput.csv) & [Id3IndividuOutput.xml](Outputs/Id3IndividuOutput.xml)| csv + txt to csv & xml. <br>  Ajout de la colone type_sport présente dans txt au fichier csv|
 | Id4 | [Data](/Data)| [Data_csv](data/Data_csv/)| connexion de type Iterate qui copie (ou déplace) les fichiers .csv du dossier [Data](/Data) et les enregistre dans un sous fichier de csv [Data_csv](data/Data_csv/)|
-| Id5 | Id3| Id4| Trigger qui se déclanche si le job Id3 est ok pour éxécuter le sous-job Id4|
+| Id5 | Id3| Id4| Trigger qui se déclenche si le job Id3 est OK pour exécuter le sous-job Id4|
+| Id6 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| Table `Individus` de la BD PostgreSQL| Alimentation d'une table BD PostgreSQL à partir d'un fichier csv|
 ## Taches réalisées
 
 - Créations et configuration des **jobs** composée de plusieurs composants reliés par des connexions
 - Exécution des jobs et débogage du code
-- Transformeation sur des fichiers csv, xml, txt et xlsx
-- Implémenter des Trigger qui se déclanche lors d'évenements
-- Ajout des contexts au différents composantes
-- 
+- Transformation sur des fichiers csv, xml, txt et xlsx
+- Implémenter des Trigger qui se déclenchent lors d'événements
+- Ajout des contextes aux différentes composantes
+- Manipulations des tables de bases de données relationnelles
 
 ## Visualisation des processus
 
@@ -73,6 +79,10 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 
 - Job Id5 (Trigger) :
 <img src="/Captures/Exemple2.png">
+
+- Job Id6 (BD PostgreSQL) :
+<img src="/Captures/Exemple3.png">
+<img src="/Captures/Exemple3_2.png">
 
 ## License
 
