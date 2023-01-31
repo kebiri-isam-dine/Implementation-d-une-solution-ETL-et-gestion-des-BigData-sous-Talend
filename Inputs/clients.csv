@@ -1,4 +1,4 @@
-Id;Prenom;Nom;Date_naissance;Code_postal;Sexe;Marque_voiture
+Id;Prenom;Nom;Date_Naissance;Code_postal;Sexe;Marque_voiture
 1;Louise;Marie;28-01-1986;35324;1;5
 2;Arthur;Guehery;27-01-1987;32631;2;2
 3;Amine;Hanouna;11-07-1989;17695;2;4

@@ -62,15 +62,16 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 | Id3 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv) & [Activite_Individus.txt](/Inputs/Activite_Individus.txt)| [Id3IndividuOutput.csv](/Outputs/Id3IndividuOutput.csv) & [Id3IndividuOutput.xml](Outputs/Id3IndividuOutput.xml)| csv + txt to csv & xml. <br>  Ajout de la colone type_sport présente dans txt au fichier csv|
 | Id4 | [Data](/Data)| [Data_csv](data/Data_csv/)| connexion de type Iterate qui copie (ou déplace) les fichiers .csv du dossier [Data](/Data) et les enregistre dans un sous fichier de csv [Data_csv](data/Data_csv/)|
 | Id5 | Id3| Id4| Trigger qui se déclenche si le job Id3 est OK pour exécuter le sous-job Id4|
-| Id6 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| Table `Individus` de la BD PostgreSQL| Alimentation d'une table BD PostgreSQL à partir d'un fichier csv|
+| Id6 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| Table `Individus` de la BD PostgreSQL| Alimentation de la table BD PostgreSQL `Individus` à partir du fichier csv [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)|
+| Id7 | [clients.csv](Inputs/clients.csv) & [SexePersonne.csv](Inputs/SexePersonne.csv) & [MarqueVoiture.csv](Inputs/MarqueVoiture.csv)| Table ``ClientsDetails`` de la BD PostgreSQL| Jointure entre trois fichiers csv : [clients.csv](Inputs/clients.csv), [SexePersonne.csv](Inputs/SexePersonne.csv), [MarqueVoiture.csv](Inputs/MarqueVoiture.csv) et Insertion dans la table de la BD PostgreSQL ``ClientsDetails``|
 ## Taches réalisées
 
 - Créations et configuration des **jobs** composée de plusieurs composants reliés par des connexions
 - Exécution des jobs et débogage du code
 - Transformation sur des fichiers csv, xml, txt et xlsx
 - Implémenter des Trigger qui se déclenchent lors d'événements
-- Ajout des contextes aux différentes composantes
-- Manipulations des tables de bases de données relationnelles
+- Ajout des contextes pour automatiser le travail
+- Alimentation des tables de bases de données relationnelles
 
 ## Visualisation des processus
 
@@ -80,7 +81,7 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 - Job Id5 (Trigger) :
 <img src="/Captures/Exemple2.png">
 
-- Job Id6 (BD PostgreSQL) :
+- Job Id7 (BD PostgreSQL) :
 <img src="/Captures/Exemple3.png">
 <img src="/Captures/Exemple3_2.png">
 
