@@ -1,7 +1,7 @@
 --Set search_path to public
 -- Table: public."Clients"
 
--- DROP TABLE public."Clients";
+-- DROP TABLE IF EXISTS public."Clients";
 
 CREATE TABLE public."Clients"
 (
@@ -83,3 +83,5 @@ TABLESPACE pg_default;
 
 ALTER TABLE public."Individus_Details"
     OWNER to postgres;	
+
+

@@ -54,7 +54,7 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 |-----------------|-----------------|----------------------------------|---------------------------------------------|
 | Id1 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus.xml](/Outputs/Individus.xml)| Lire un csv et le transformer en xml|
 | Id2 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv)| [Individus_MAJ.csv](/Outputs/Individus_MAJ.csv)| Mettre la cologne nom en MAJ|
-| Id3 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv) & [Activite_Individus.txt](/Inputs/Activite_Individus.txt)| [Id3IndividuOutput.csv](/Outputs/Id3IndividuOutput.csv) & [Id3IndividuOutput.xml](Outputs/Id3IndividuOutput.xml)| csv + txt to csv & xml. <br>  Ajout de la colone type_sport présente dans txt au csv|
+| Id3 | [Fichier_Individus.csv](/Inputs/Fichier_Individus.csv) & [Activite_Individus.txt](/Inputs/Activite_Individus.txt)| [Id3IndividuOutput.csv](/Outputs/Id3IndividuOutput.csv) & [Id3IndividuOutput.xml](Outputs/Id3IndividuOutput.xml)| csv + txt to csv & xml. <br>  Ajout de la colone type_sport présente dans txt au fichier csv|
 | Id4 | [Data](/Data)| [Data_csv](data/Data_csv/)| connexion de type Iterate qui copie (ou déplace) les fichiers .csv du dossier [Data](/Data) et les enregistre dans un sous fichier de csv [Data_csv](data/Data_csv/)|
 | Id5 | Id3| Id4| Trigger qui se déclanche si le job Id3 est ok pour éxécuter le sous-job Id4|
 ## Taches réalisées
