@@ -77,7 +77,7 @@ Jobs | Composant_Inputs | Composant_Outputs | Description du job                
 - Implémenter des Trigger qui se déclenchent lors d'événements
 - Ajout des contextes pour automatiser le travail
 - Alimentation des tables de bases de données relationnelles
-- Copie des tables entre deux base de données
+- Copie des tables entre deux bases de données
 
 ## Visualisation des processus
 
